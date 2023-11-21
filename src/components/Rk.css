@@ -1,0 +1,104 @@
+.grid-container {
+    display: grid;
+    padding: 100px;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.first {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-psd/3d-female-character-working-laptop-while-sitting-chair_23-2148938889.jpg?w=740&t=st=1699012398~exp=1699012998~hmac=97579aa4b153a8b0ec4158d8a4cb8ff75a2e4958d73a418f02db730a3aaf2d1f");
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .loginform {
+        margin: 9px;
+        border-radius: 20px;
+    }
+
+    .grid-container {
+        padding: 10px;
+        margin-top: 120px;
+    }
+
+    .first {
+        display: none;
+    }
+    .loginform1 {
+        background-color: rgb(11, 64, 91);
+        height: 850px;
+        border-radius: 40px;
+    }
+    
+}
+
+h2 {
+    padding: 15px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loginform {
+    background-color: white;
+    margin: 60px;
+    margin-top: 30%;
+    padding: 10px;
+}
+
+.loginform1 {
+    background-color: rgb(11, 64, 91);
+}
+
+input {
+    padding: 20px;
+    width: 400px;
+    outline: none;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+   
+}
+
+.button {
+    padding: 15px;
+    width: 120px;
+    outline: none;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: rgb(10, 64, 92);
+    font-family: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FCC722;
+    width: 180px;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.icon {
+    margin-right: 500px;
+}
+.logow{
+    background-color:white;
+    width: 250px;
+    /* border-radius: 40px 30px 100px 80px;  */
+    /* border-radius: 100px; */
+    padding: 5px;
+    margin: 5px;
+}
